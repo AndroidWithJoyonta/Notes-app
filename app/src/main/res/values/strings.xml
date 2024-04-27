@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Notepad</string>
+
+    <string name="search_note">Search Note</string>
+    <string name="note_title">Note Title</string>
+    <string name="note_subtitle">Note Subtitle</string>
+    <string name="type_note_here">Type note here..</string>
+    <string name="add">Add</string>
+    <string name="cancel">CANCEL</string>
+    <string name="delete_note">Delete</string>
+    <string name="date">5-8-20204</string>
+    <string name="todo">TODO</string>
+    <string name="are_you_sure_you_want_to_delete_this_note">Are you sure you want to delete this note?</string>
+    <string name="edit">Edit Note</string>
+    <string name="delete">Delete Note</string>
+    <string name="click_here">Click Here</string>
+</resources>

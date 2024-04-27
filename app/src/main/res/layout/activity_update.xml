@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".insertactivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        >
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            >
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/toolbarUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:title="@string/app_name"
+                app:subtitleTextColor="@color/black"
+                app:navigationIcon="@drawable/back"
+                android:backgroundTint="@color/white"
+                />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <EditText
+            android:id="@+id/edUpTitle"
+            android:layout_marginStart="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/note_title"
+            android:background="@null"
+            android:padding="@dimen/_15sdp"
+            android:textColor="#000"
+            android:textSize="@dimen/_16sdp"
+            android:inputType="text"
+            android:textColorHint="@color/colorTextHint"
+            android:textStyle="bold"
+            android:imeOptions="actionDone"
+            android:importantForAutofill="no"
+            android:includeFontPadding="false"
+            tools:ignore="MissingConstraints"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/create_textDeteTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTextHint"
+            android:layout_marginStart="@dimen/_13sdp"
+            android:textSize="@dimen/_10ssp"
+            />
+
+        <EditText
+            android:id="@+id/edUpSubTitle"
+            android:layout_marginStart="@dimen/_4sdp"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:layout_marginEnd="@dimen/_12ssp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/note_subtitle"
+            android:background="@null"
+            android:padding="15dp"
+            android:inputType="textMultiLine"
+            android:textSize="@dimen/_12sdp"
+            android:textColorHint="@color/colorTextHint"
+            android:textStyle="normal"
+            android:imeOptions="actionDone"
+            android:importantForAutofill="no"
+            android:includeFontPadding="false"
+            tools:ignore="MissingConstraints"
+            android:text="" />
+
+
+        <EditText
+            android:id="@+id/edUpNotes"
+            android:layout_marginStart="@dimen/_4sdp"
+            android:layout_marginTop="@dimen/_9sdp"
+            android:layout_marginEnd="@dimen/_12ssp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_270sdp"
+            android:ems="10"
+            android:gravity="start"
+            android:hint="@string/type_note_here"
+            android:background="@null"
+            android:padding="15dp"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"
+            android:lines="8"
+            android:minLines="6"
+            android:maxLines="10"
+            android:textSize="@dimen/_12sdp"
+            android:textColorHint="@color/colorTextHint"
+            android:textStyle="normal"
+            android:importantForAutofill="no"
+            android:includeFontPadding="false"
+            android:text="" />
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/UpdateNotesBtn"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_300sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/_26sdp"
+        android:layout_marginTop="@dimen/_26sdp"
+        android:layout_marginEnd="@dimen/_26sdp"
+        android:layout_marginBottom="@dimen/_26sdp"
+        android:backgroundTint="@color/colorAccent_Night"
+        android:src="@drawable/done" />
+
+</RelativeLayout>
